@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import FormInput from './Components/Form';
 import Ref from './Components/Ref';
+import Ref2 from './Components/Ref2';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
     <div className="App">
       {/* <FormInput /> */}
       <Ref />
+      <Ref2 />
     </div>
     </div>
     </div>
