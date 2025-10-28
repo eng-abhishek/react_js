@@ -6,12 +6,18 @@ class Ref2 extends Component{
         super(props);
         this.myRef = React.createRef();
     }
+
+    // It will work at time of load the browser
+    componentDidMount(){
+        console.log(this.myRef.current);
+        console.log(this.myRef.current.innerHTML);
+    }
     
     HandleSubmit = () => {
     this.myRef.current.style.color ="red"; 
     this.myRef.current.style.fontSize ="100px";
     this.myRef.current.style.textAlign ="right";
-    console.log(this.myRef.current.innerHTML);
+    // console.log(this.myRef.current.innerHTML);
     }
 
     render(){
