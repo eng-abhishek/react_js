@@ -10,6 +10,7 @@ import UseRefHooksAndUncontrolledCom1 from './Components/UseRefHooksAndUncontrol
 import UseRefHooksAndUncontrolledCom2 from './Components/UseRefHooksAndUncontrolledCom2';
 import UseRefHooks from './Components/UseRefHooks';
 import UseEffectwithArrayParameter from './Components/UseEffectwithArrayParameter';
+import UseReducerHook from './Components/UseReducerHook';
 
 function App() {
   return (
@@ -25,7 +26,8 @@ function App() {
      {/* <UseRefHooksAndUncontrolledCom1 /> */}
      {/* <UseRefHooksAndUncontrolledCom2 /> */} 
      {/* <UseEffectwithArrayParameter /> */}
-     <UseRefHooks />
+     {/* <UseRefHooks /> */}
+     < UseReducerHook />
     </div>
     </div>
     </div>
